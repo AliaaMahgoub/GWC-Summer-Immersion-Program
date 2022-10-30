@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Aliaa's Personality Quiz</title>
+	<link rel="icon" type="image/x-icon" href="/assets/snow.png">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Roboto&display=swap" rel="stylesheet">
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>What do reindeer and talking snowmen have in common? </h1>
+		<p>Not much! Answer 3 questions and I'll tell you whether you're more like Sven or Olaf from Frozen.</p>
+	</header>
+
+	<main>
+
+		<h2>Would you rather be really hot or really cold?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/hot.jpg" alt="sand under white and blue sky">
+        <br>
+        <button id="q1a1" onClick="disQ1()">hot</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/cold.jpg" alt="Squirrel covered in snow during the daytime, with snow covered trees in the background">
+        <br>
+        <button id="q1a2" onClick="disQ1()">cold</button>
+      </div>
+
+    </div> 
+    
+    <h2>You’ve had an exhausting week! What do you do to wind down?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/games.jpg" alt="table covered in various items, including games, arts and crafts, and a white camera.">
+        <br>
+        <button id="q2a1" onClick="disQ2()">game night!</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/movie.jpg" alt="a woman in a brown jacket lying on a gray couch">
+        <br>
+        <button id="q2a2" onClick="disQ2()">movie night!</button>
+      </div>
+
+    </div> 
+    
+    <h2>Frozen  or Frozen 2?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/one.jpg" alt="The number one, circled and printed in black on a gray textured background">
+        <br>
+        <button id="q3a1" onClick="disQ3()">the first one
+</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/two.jpg" alt="The number two printed in white, surrounded in a green circle, in front of a red background.">
+        <br>
+        <button id="q3a2" onClick="disQ3()">Frozen 2 is way better.</button>
+      </div>
+
+    </div> 
+
+		<br>
+		<button id="showResult">Am I Sven or Olaf?</button>
+		
+    <h2 id="result"></h2>
+
+		<button id="restart">Start over!
+</button>
+    
+    
+  </main>
+  </body>
+</html>

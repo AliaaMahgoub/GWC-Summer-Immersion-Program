@@ -1,0 +1,83 @@
+/* STYLE SECTIONING TAGS */
+body {
+/*   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; */
+	font-family: 'Roboto', sans-serif;
+  margin: 2em;
+	text-align: center;
+	background: #dbe4ff;
+}
+
+/* STYLE TEXT */
+h1 {
+	font-family: 'Limelight', cursive;
+/*   font-style: italic; */
+  color: cornflowerblue;
+	font-size: 300%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+	justify-content: center;
+  margin-top: 2em; */
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+	background: cornflowerblue;
+  margin: 10px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 20em;
+	margin: 5px;
+	border-radius: 5%;
+}
+
+/* STYLE BUTTON */
+button { 
+	font-family: 'Limelight', cursive;
+	background-color: cornflowerblue;
+	border: none;
+	color: white;
+	font-size: 150%;
+	size:10%;
+}
+
+button:hover{
+	color: #385c9f;
+  background: white;
+}
+
+button:active{
+	color: #385c9f;
+  background: cornflowerblue;
+}
+
+button:disabled{
+	color: #385c9f;
+  background: cornflowerblue;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
