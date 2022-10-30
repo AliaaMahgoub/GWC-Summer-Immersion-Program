@@ -1,0 +1,167 @@
+/* #fd985e, #28536b, #f2f7f2, #6f8f72, #4e4941
+ */
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 2px 2px #28536b;
+}
+
+body {
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #F2F7F2; 
+}
+/* STYLE TEXT */
+
+h1 {
+  color: #6f8f72;
+	font-size: 60px;
+	font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+  color: #28536b; 
+	font-size: 40px;
+ 	font-family: 'Shrikhand', cursive;
+}
+
+h3 {
+  color: #fd985e; 
+	font-size: 30px;
+ 	font-family: 'Shrikhand', cursive; 
+/* 	font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+} */
+}
+
+p {
+  color: #4e4941;
+	font-family: 'Courier New';
+ 	font-weight: bold;
+/*   text-align: center; */
+  font-size: 30px;
+}
+
+body li {
+  color: #4e4941;
+	font-family: 'Courier New';
+ 	font-weight: bold;
+  font-size: 20px;
+  
+}
+
+body ul {
+	margin-left: 40px;
+}
+
+.long-term {
+	text-align: left;
+}
+
+.short-term {
+	text-align: left;
+}
+
+header {
+	text-align: center;
+	text-shadow: 2px 2px #504b43;
+}
+
+a{
+  text-decoration: #fd985e underline;
+	color: #fd985e;
+}
+
+.page-title{
+	float: left;
+}
+
+/* STYLE IMAGES */
+.logo{
+	float: right;
+	display: inline-block;
+}
+
+/* STYLE NAV BAR */
+nav ul {
+	
+	list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+nav li {
+  display:inline;
+}
+
+nav li a {
+  padding:5px 10px;
+  display: inline-block; 
+	text-decoration: none;
+	color: #504b43;
+	padding: 14px;
+}
+
+nav li a:hover {
+	color: cornflowerblue;
+	font-weight: bold;
+}
+
+/* STYLE BUTTONS */
+
+button {
+  margin: 0;
+	border-radius: 10%;
+	padding: 10px;
+	font-family: 'Courier New';
+	font-size: 20px;
+	background-color: cornflowerblue;
+	font-weight: bold;
+	color: white;
+}
+
+button:hover {
+	background-color: #486bad;
+}
+
+button:active {
+	background-color: #21478c;
+	color: #ebeef4;
+}
+
+#pas{
+  background-color:lightblue;
+  margin: 0;
+  width:100;
+	display: inline-block;
+}
+
+#rar{
+  font-size: 80px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  color: #504b43;
+}
+
+}
+#las{
+text-aligin: right;
+ 
+}
+
+.gen {
+	text-align: center;
+	display: block;
+}
+
+img {
+	text-align: center;
+	display: inline-block;
+}
